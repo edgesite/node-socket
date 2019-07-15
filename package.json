@@ -1,0 +1,16 @@
+{
+  "name": "node-socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nicolas <nicolas@h.ls>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp-build",
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "nan": "^2.14.0",
+    "node-gyp": "^5.0.2"
+  }
+}
